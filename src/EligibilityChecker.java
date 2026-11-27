@@ -10,7 +10,8 @@ public class EligibilityChecker {
         rules = new EligibilityRule[] {
             new PercentageRule(),     // Check candidate's percentage
             new BacklogRule(),        // Check candidate's backlogs
-            new GraduationYearRule()  // Check candidate's graduation year
+            new GraduationYearRule(),  // Check candidate's graduation year
+            new SkillRule()          // check candidate'sskillrule
         };
     }
 
